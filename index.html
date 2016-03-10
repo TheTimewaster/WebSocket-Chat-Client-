@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Websocket Chat</title>
+	<link rel="stylesheet" type="text/css" href="/resources/bower_components/material-design-lite/material.css">
+	<script src="/resources/bower_components/material-design-lite/material.js"></script>
+	<style type="text/css" media="screen">
+		#messages
+		{
+			height:400px;
+			background-color:#F0F0F0;
+		}
+	</style>
+</head>
+<body>
+	<h1>Websocket Chat</h1>
+	<div id="main">
+		<div id="messages">
+		<!--chat messages are displayed here!-->
+		</div>
+		<input id="input" type="text" class="mdl-textfield__input"></input>
+		<button onclick="sendMessage()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Send</button>
+	</div>
+	<script type="text/javascript" src="/resources/bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="/resources/script.js"></script>
+</body>
+</html>
